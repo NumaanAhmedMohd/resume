@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mohammed Numaan Ahmed | Aspiring Software Engineer</title>
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:"Segoe UI",sans-serif;
+}
+
+body{
+  color:#fff;
+  overflow-x:hidden;
+}
+
+/* Background Video */
+video{
+  position:fixed;
+  top:0; left:0;
+  width:100%; height:100%;
+  object-fit:cover;
+  z-index:-2;
+}
+
+.overlay{
+  position:fixed;
+  top:0; left:0;
+  width:100%; height:100%;
+  background:rgba(2,6,23,0.88);
+  z-index:-1;
+}
+
+/* Navigation */
+nav{
+  position:fixed;
+  top:0;
+  width:100%;
+  background:rgba(2,6,23,0.95);
+  padding:15px;
+  text-align:center;
+  z-index:10;
+}
+
+nav a{
+  color:#38bdf8;
+  margin:0 18px;
+  text-decoration:none;
+  font-weight:600;
+}
+
+nav a:hover{ color:#22c55e; }
+
+/* Profile Slider */
+.profile-slider{
+  position:fixed;
+  top:90px;
+  right:25px;
+  width:150px;
+  height:150px;
+  border-radius:50%;
+  overflow:hidden;
+  border:4px solid #38bdf8;
+  box-shadow:0 0 30px rgba(56,189,248,0.9);
+  z-index:20;
+}
+
+.profile-slider img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  position:absolute;
+  opacity:0;
+  transition:opacity 1.2s ease-in-out;
+}
+
+.profile-slider img.active{ opacity:1; }
+
+/* Sections */
+section{
+  max-width:1200px;
+  margin:70px auto;
+  padding:20px;
+}
+
+.hero{
+  height:60vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+}
+
+.hero h1{ font-size:3.2rem; }
+.hero p{
+  margin-top:18px;
+  font-size:1.3rem;
+  color:#cbd5f5;
+}
+
+.hero a{
+  display:inline-block;
+  margin:18px 10px;
+  padding:12px 22px;
+  border-radius:30px;
+  background:#38bdf8;
+  color:#000;
+  font-weight:600;
+  text-decoration:none;
+}
+
+.hero a:hover{ background:#22c55e; }
+
+h2{
+  font-size:2.4rem;
+  margin-bottom:25px;
+  border-left:6px solid #38bdf8;
+  padding-left:14px;
+}
+
+.card{
+  background:rgba(15,23,42,0.95);
+  padding:35px;
+  border-radius:18px;
+  margin-bottom:30px;
+  box-shadow:0 18px 45px rgba(0,0,0,0.7);
+  font-size:1.05rem;
+  line-height:1.8;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+  gap:25px;
+}
+
+.skills span{
+  display:inline-block;
+  margin:10px;
+  padding:10px 18px;
+  background:#1e40af;
+  border-radius:22px;
+  font-size:0.95rem;
+}
+
+.contact a{
+  display:block;
+  margin:12px 0;
+  color:#38bdf8;
+  text-decoration:none;
+  font-size:1.05rem;
+}
+
+footer{
+  text-align:center;
+  padding:25px;
+  color:#94a3b8;
+}
+</style>
+</head>
+
+<body>
+
+<!-- Background -->
+<video autoplay muted loop>
+  <source src="bg.mp4" type="video/mp4">
+</video>
+<div class="overlay"></div>
+
+<!-- Profile Slider -->
+<div class="profile-slider">
+  <img src="photo_2023-12-23_16-54-42.jpg" class="active">
+  <img src="photo_2024-05-16_23-03-49.jpg">
+  <img src="photo_2023-03-15_20-42-58.jpg">
+  <img src="photo_2024-08-18_11-27-29.jpg">
+  <img src="photo_2024-08-18_11-27-11.jpg">
+  <img src="photo_2024-08-18_11-27-08.jpg">
+
+
+</div>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#education">Education</a>
+  <a href="#internships">Internships</a>
+  <a href="#projects">Projects</a>
+  <a href="#skills">Skills</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div>
+    <h1>Mohammed Numaan Ahmed</h1>
+    <p>Aspiring Software Engineer | Computer Science Graduate</p>
+
+    <p style="margin-top:15px;font-size:1.1rem;color:#e2e8f0;">
+      📍 Warangal, Telangana, India <br>
+      📧 numaanahmedmohammed@gmail.com <br>
+      📞 +91 9177362526
+    </p>
+
+    <a href="https://www.linkedin.com/in/mohammed-numaan-ahmed-443236221/" target="_blank">LinkedIn</a>
+    <a href="https://github.com/NumaanAhmedMohd" target="_blank">GitHub</a>
+    <a href="https://leetcode.com/u/numaan77/" target="_blank">LeetCode</a>
+  </div>
+</section>
+
+
+
+<!-- CAREER OBJECTIVE -->
+<section id="about">
+<h2>Career Objective</h2>
+<div class="card">
+Aspiring Software Engineer with strong foundations in Computer Science and practical
+experience gained through academic projects and industry internships. Experienced in
+Java, Python, web technologies, Android application development, and data-driven
+problem solving. Seeking an entry-level software engineering role where I can
+contribute to real-world projects, enhance my technical skills, and grow as a
+professional engineer.
+</div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education">
+<h2>Education</h2>
+
+<div class="card">
+<b>Chaitanya Deemed To Be University</b><br>
+Bachelor of Technology in Computer Science Engineering<br>
+2021 – April 2025
+</div>
+
+<div class="card">
+<b>Board of Intermediate Education</b><br>
+SR Edu. Centre<br>
+2019 – 2021
+</div>
+
+<div class="card">
+<b>Board of Secondary Education</b><br>
+Tejaswi High School<br>
+2009 – 2019
+</div>
+</section>
+
+<!-- INTERNSHIPS -->
+<section id="internships">
+<h2>Internships</h2>
+
+<div class="card">
+<b>India Edu Community by Google for Developers</b><br>
+Android Developer Intern (July 2024 – August 2024)
+<ul>
+<li>Designed and implemented a music player Android application with playlist
+management, shuffle functionality, and real-time playback tracking.</li>
+<li>Worked extensively with Android Studio, Java, and MediaPlayer API to ensure smooth
+performance and optimized resource usage.</li>
+<li>Focused on improving user experience through intuitive UI design and responsiveness.</li>
+</ul>
+</div>
+
+<div class="card">
+<b>Oasis Infobyte</b><br>
+Android Application Intern (May 2023 – August 2023)
+<ul>
+<li>Developed an expense tracker Android application allowing users to add, categorize,
+and manage daily expenses.</li>
+<li>Implemented monthly expense reports and summaries to help users analyze spending
+patterns.</li>
+<li>Ensured data reliability and security while maintaining a clean and user-friendly
+interface.</li>
+</ul>
+</div>
+
+<div class="card">
+<b>Google Developers</b><br>
+Android Development Intern (August 2022 – October 2022)
+<ul>
+<li>Built utility applications including a calculator and task reminder with custom
+themes and animations.</li>
+<li>Integrated authentication features and ensured cross-device compatibility.</li>
+<li>Achieved approximately 95% functional testing success across multiple Android devices.</li>
+</ul>
+</div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+<h2>Projects</h2>
+<div class="grid">
+
+<div class="card">
+<b>Online Flight Booking System</b><br>
+PHP, HTML, CSS, XAMPP
+<ul>
+<li>Developed a complete web-based flight booking system enabling users to search flights,
+book tickets, and manage reservations.</li>
+<li>Implemented secure payment gateway integration to support safe online transactions.</li>
+<li>Optimized system reliability, performance, and security for efficient booking
+management.</li>
+</ul>
+</div>
+
+<div class="card">
+<b>Crop Yield Prediction</b><br>
+Python, Machine Learning, Data Analysis
+<ul>
+<li>Built machine learning models to predict crop yield using environmental and
+agricultural datasets.</li>
+<li>Implemented and compared Linear Regression, Decision Trees, Random Forest, and KNN
+models.</li>
+<li>Visualized prediction results using charts to support data-driven agricultural
+decision-making.</li>
+</ul>
+</div>
+
+<div class="card">
+<b>Banking System</b><br>
+Java / PHP
+<ul>
+<li>Designed a basic banking system supporting account creation, deposits, withdrawals,
+and balance inquiries.</li>
+<li>Focused on data consistency, validation, and secure transaction handling.</li>
+<li>Applied core software engineering principles such as modular design and error
+handling.</li>
+</ul>
+</div>
+
+</div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+<h2>Skills</h2>
+<div class="card skills">
+<span>Java</span>
+<span>Python</span>
+<span>SQL</span>
+<span>HTML</span>
+<span>CSS</span>
+<span>PHP</span>
+<span>Android SDK</span>
+<span>Android Studio</span>
+<span>XAMPP</span>
+<span>Machine Learning</span>
+<span>Data Analysis</span>
+<span>Google Cloud Platform</span>
+<span>IBM Watson</span>
+<span>Networking Basics</span>
+<span>Windows OS</span>
+<span>Problem Solving</span>
+<span>Communication</span>
+<span>Teamwork</span>
+<span>Analytical Thinking</span>
+</div>
+</section>
+
+
+<!-- ACHIEVEMENTS & VOLUNTEERING -->
+<section id="achievements">
+<h2>Achievements & Volunteering</h2>
+
+<div class="card">
+<b>Microsoft Learn Student Ambassador | Microsoft</b><br>
+<span>February 2024 – January 2025</span>
+<ul>
+<li>
+Selected as a Microsoft Learn Student Ambassador and actively participated in the
+Beta Phase program.
+</li>
+<li>
+Led a Cloud Skills Challenge focused on GitHub and AI fundamentals, significantly
+enhancing participants’ technical and problem-solving skills.
+</li>
+<li>
+Collaborated closely with Microsoft engineers to organize and deliver impactful
+webinars on Microsoft Azure services.
+</li>
+<li>
+Contributed to increased adoption of cloud technologies and strengthened student
+community engagement through technical learning initiatives.
+</li>
+</ul>
+</div>
+
+<div class="card">
+<b>Google Developer Groups (GDG Hyderabad)</b><br>
+<span>Volunteer | 2024</span>
+<ul>
+<li>
+Volunteered with GDG Hyderabad to support community growth through event planning,
+technical sessions, and developer engagement activities.
+</li>
+<li>
+Actively assisted in organizing meetups and workshops aimed at fostering knowledge
+sharing among developers.
+</li>
+<li>
+Achieved the <b>Google Arcade Facilitator – Gold League</b> milestone for outstanding
+contribution and community involvement.
+</li>
+</ul>
+</div>
+
+<div class="card">
+<b>Microsoft Most Valuable Researcher (MVR)</b><br>
+<span>Microsoft | 2024</span>
+<ul>
+<li>
+Recognized as a <b>Top 100 Microsoft Most Valuable Researcher globally</b> for significant
+contributions in research, learning initiatives, and technology advocacy.
+</li>
+<li>
+Demonstrated strong commitment to continuous learning, research excellence, and
+knowledge sharing within the technical community.
+</li>
+</ul>
+</div>
+
+</section>
+
+
+<!-- CERTIFICATIONS -->
+<section id="certifications">
+<h2>Certifications</h2>
+
+<div class="card">
+<ul>
+<li>Microsoft (2024): Python, Java, RDBMS, Big Data, Predictive Analytics</li>
+<li>IBM Career Education: Data & Analytics Certifications</li>
+</ul>
+</div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+<h2>Contact</h2>
+<div class="card contact">
+<a>Email: numaanahmedmohammed@gmail.com</a>
+<a>Phone: +91 9177362526</a>
+<a href="https://www.linkedin.com/in/mohammed-numaan-ahmed-443236221/" target="_blank">LinkedIn</a>
+<a href="https://github.com/NumaanAhmedMohd" target="_blank">GitHub</a>
+<a href="https://leetcode.com/u/numaan77/" target="_blank">LeetCode</a>
+</div>
+</section>
+
+<footer>
+© 2025 Numaan Ahmed | Aspiring Software Engineer
+</footer>
+
+<script>
+let images=document.querySelectorAll(".profile-slider img");
+let index=0;
+setInterval(()=>{
+  images[index].classList.remove("active");
+  index=(index+1)%images.length;
+  images[index].classList.add("active");
+},3000);
+</script>
+
+</body>
+</html>
